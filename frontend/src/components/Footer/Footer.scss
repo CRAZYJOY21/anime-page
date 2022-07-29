@@ -1,0 +1,17 @@
+.Footer {
+    background: #0A0F1B;
+    height: 260px;
+
+    &__logo {
+        cursor: pointer;
+    }
+
+    &__content {
+        padding-top: 47px;
+        display: inline-flex;
+    }
+
+    &__link li {
+        margin-right: 38px;
+    }
+}

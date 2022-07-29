@@ -1,0 +1,11 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__text {
+        display: flex;
+        align-items: center;
+        font-size: 34px;
+    }
+}

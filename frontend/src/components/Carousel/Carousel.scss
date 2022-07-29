@@ -1,0 +1,42 @@
+.mySwiper {
+    height: 600px;
+}
+
+.mySwiper img {
+    background-size: no-repeat
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: #BD00FF;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-next {
+    background-image: url("../../assets/images/svg/next.svg");
+}
+
+.swiper-button-prev {
+    background-image: url("../../assets/images/svg/prev.svg");
+}
+
+.images {
+    background: rgba(0, 0, 0, 0.4) !important;
+    background-size: cover !important;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.text {
+    position: absolute;
+}

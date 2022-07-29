@@ -1,0 +1,14 @@
+.Card__content {
+    @apply shadow-lg mt-20 mb-80 text-center;
+    height: 1200px;
+}
+
+
+
+.text {
+    @apply font-medium text-3xl;
+}
+
+.Actions {
+    @apply justify-between border-2 border-indigo-200 border-t-indigo-500;
+}

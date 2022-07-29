@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+    margin-top: 38px;
+
+    &__logo {
+        cursor: pointer;
+    }
+
+    &__links ul {
+        display: flex;
+        font-weight: bold;
+    }
+
+    &__links li+li {
+        margin-left: 45px;
+    }
+
+    &__links li a:hover {
+        color: #BD00FF;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+.colorSettings input {
+    color: white !important;
+}
